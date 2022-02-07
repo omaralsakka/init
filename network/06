@@ -1,0 +1,6 @@
+#after online searchs, the path of the local nameserver found in /etc/resolv.conf
+#it can be executed with:
+
+cat /etc/resolv.conf
+
+#you may find specifically the nameserver only if "grep nameserver" is added
