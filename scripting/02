@@ -1,0 +1,6 @@
+sudo killall -u <user-name>
+sudo userdel <user-name>
+
+#if you want to remove home directory as well, use:
+sudo killall -u <user-name>
+sudo userdel -r <user-name>

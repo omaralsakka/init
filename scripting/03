@@ -1,0 +1,2 @@
+sudo apt-get install cowsay
+cowsay -f ghostbusters Who you Gonna Call
