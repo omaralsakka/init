@@ -1,1 +1,3 @@
-sudo ssh virtuser@<VM IP address> -i ~/.ssh/<privatesshfilename>
+sudo ssh virtuser@<VM IP address> -p <guestport>
+
+#example of how it looks like: ssh omar@127.0.0.1 -p 2222

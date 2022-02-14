@@ -1,11 +1,6 @@
 #to connect via ssh:
-#ssh -i /path/my-key-pair.pem my-instance-user-name@my-instance-public-dns-name
+#ssh <username> @ <ipadd> -p <port number>
 #write "yes" to the given message
 
 #to connect via graphic session:
-#sudo adduser -m new_user --disabled-password
-#sudo su - new_user
-#mkdir .ssh
-#chmod 700 .ssh
-#touch .ssh/authorized_keys
-#chmod 600 .ssh/authorized_keys
+#enter the loggings vmid@127.0.0.1 -p 2222

@@ -1,3 +1,3 @@
-#The provider of who.int are World Health Organization in Switzerland
+#The provider of who.int are World Health Organization in Switzerland, the host provider is: Cloudflare
 #we can find that in the terminal easily by:
-whois who.int
+#whois $(host who.int)
